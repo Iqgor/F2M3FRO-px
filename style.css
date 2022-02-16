@@ -10,24 +10,32 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    font-size:16px;
+    font-size:1rem;
 }
 
 article{
-    width: 600px;
-    border: 5px dotted blue;
+    width: 35vw;
+    border: 0.3125rem dotted blue;
 }
 
 h1{
-    font-size: 64px;
-    margin-bottom: 40px;
-    border: 5px dotted red;
+    font-size: 2rem;
+    margin-bottom:2.5rem;
+    border: 0.3125rem dotted red;
 }
 
 p{
-    margin-bottom: 40px;
-    border: 5px dotted green;
+    margin-bottom: 2.5rem;
+    border: 0.3125rem dotted green;
 
+}
+
+.btn{
+    background:blue;
+}
+
+.btn.btn2{
+    background: pink;
 }
 
 button{
@@ -36,8 +44,19 @@ button{
     background: green;
     color:white;
     font-family: sans-serif;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 5px dotted yellow;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.3125rem;
+    border: 0.3125rem dotted yellow;
     width:100%;
 }
+
+
+
+@media screen and (max-width: 62.5rem) {
+    
+    article{
+        width: 80vw;
+    }
+    
+}
+
